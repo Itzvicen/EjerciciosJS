@@ -33,6 +33,7 @@ label{
     border-radius: 20px;
     margin: auto;
     width: 40%;
+    font-size: 17px;
 }
 
 button{
@@ -44,6 +45,7 @@ button{
     border-radius: 20px;
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 
 button:hover{
@@ -72,7 +74,7 @@ h3{
     padding: 15px;
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 19px;
     margin: 10px auto;
     width: 40%;
     visibility: hidden;
@@ -80,7 +82,7 @@ h3{
 
 #botones {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     background-color: white;
     width: 40%;
     color: black;
