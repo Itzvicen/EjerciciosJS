@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #e06588, #f4e2d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-height: 100%;
+    color: white;    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+}
+
+#formu{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.295);  
+    backdrop-filter: blur(10px);
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    width: 40%;
+}
+
+button{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 40%;
+    visibility: hidden;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 10px auto;
+    width: 40%;
+    visibility: hidden;
+}
+
+#botones {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    width: 40%;
+    color: black;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 25px;
+    }
+
+    #formu{
+        width: 90%;
+    }
+
+    h2{
+        width: 90%;
+    }
+
+    h3 {
+        width: 90%;
+    }
+
+    #botones{
+        width: 90%;
+        display: block;
+    }
+
+    button{
+        font-size: 15px;
+    }
+
+}

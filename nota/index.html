@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/javascript.js"></script>
+    <title>Nota final de asignatura</title>
+</head>
+<body>
+    <h1>Cálculo de la nota final de una asignatura</h1>
+    <div id="formu">
+        <form action="notawp">
+            <label for="">Introduzca la nota de Wordpress: </label>
+            <input type="number" id="notawp">
+        </form>
+
+        <form action="notajs">
+            <label for="">Introduzca la nota de Javascript : </label>
+            <input type="number" id="notajs">
+        </form>
+    </div>
+    <button onclick="calcNota()">Pulsa para calcular la nota</button>
+    <h2 id="resultado"></h2>
+    <h3 id="indicacion"></h3>
+
+    <div id="botones">
+        <input type="checkbox" name="trabajowp" id="wordpress">
+        <label for="">Trabajo extra de Wordpress</label>
+        <input type="checkbox" name="trabajojs" id="js">
+        <label for="">Trabajo extra de Javascript</label>
+    </div>
+</body>
+</html>

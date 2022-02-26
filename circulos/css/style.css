@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(to right, #e06588, #f4e2d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border: hidden;
+    padding: 10px;
+    width: 180px;
+    font-size: 13px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: 4px 5px 7px rgba(248, 134, 187, 0.432);
+    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.295);  
+    backdrop-filter: blur(10px);
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    width: 40%;
+}
+
+#formulario:hover{
+    padding: 30px;
+    transform:scale(1.1);
+    transition: all 2s;
+}
+
+#resultados{
+    font-family: 'Poppins';
+    text-align: center;
+    background-color: rgb(255, 255, 255);  
+    backdrop-filter: blur(10px);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 20px auto;
+    width: 40%;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 25px;
+    }
+
+    #formulario{
+        width: 80%;
+    }
+
+    #formulario:hover{
+        padding: 30px;
+        transform:scale(1);
+    }
+
+    #resultados{
+        width: 90%;
+    }
+
+
+}
